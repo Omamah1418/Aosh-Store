@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Aosh Chanel</title>
+
+  <link rel="stylesheet" type="text/css" href="AoshHome.css" />
+  <link rel="stylesheet" type="text/css" href="AoshBrands.css" />
+
+   </head>
+   <body>
+     
+    <div id="basic"> <!-- basic div -->
+      <div>
+<header>
+ <!--<img class ="logopicture" src="aoshlogowithoutborder.png">-->
+ 
+<section class ="sectionbody">
+
+
+ <!-- Button to open the login and search form -->
+
+<div class="topicons">
+   <a href="#"> <input id ="search" type="image" src="searchicon.png" width="25px" height="25px" 
+  onclick="serachFunction()" onchange ="serachFunction1()"></a>
+
+ <button onclick="document.getElementById('id01').style.display='block'" title="login"> <img src="loginicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+<button onclick="document.getElementById('id02').style.display='block'" title="register"> <img src="signupicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+
+ <h1 id="title" >AOsh</h1>
+<br>
+
+</div>
+
+<!-- navigation bar -->
+<div class="menu-wrap">
+<nav class="menu">
+<ul class="clearfix">
+  <li><a href="Aoshhome.html">Home</a></li>
+  <li><a href="#Recently">Recently Added </a></li>
+   <li><a href="#Summer" >Fall/Winter 2018 Collection </a></li>
+  <li> <a href="#limited"> Limited Addition</a></li>
+</ul>
+</nav>
+
+
+</div>
+</div>
+<br>
+<br> 
+</header>
+
+
+</section>
+<img id="barndicon" width="190px"
+ height="100px" src="chanel-logo.jpg" >
+<script>
+function serachFunction() {
+    document.getElementById("search").type = "search";
+}
+function serachFunction1() {
+    document.getElementById("search").type = "image";
+}
+</script>
+<br>
+<br>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+
+
+
+<!-- log in form -->
+
+      <div class="login">
+
+        <h1>Log in </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b>Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+       
+
+
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+        
+      
+     <br>
+
+      <button type="submit" class="loginsubmit">Login</button>
+      
+      
+      <label>
+        <input class="loginsubmit" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        <br>
+
+        <span class="psw"><a href="#"> Forgot password?</a></span>
+        
+        <br>
+         <br>
+         <hr>
+          <br>
+
+          
+
+
+       <button class="loginsubmit" type="button" 
+       onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+
+             
+  </form>
+</div>
+
+<!-- register form -->
+
+<div id="id02" class="modal">
+<span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+    <div class="login" id="signup">
+
+       <h1 id="signuplink">sign up </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b> name: </b></label>
+      <input class="loginform" type="text" placeholder="Enter a name" name="uname" required>
+     <br>
+     <br>
+     <br>
+       <label id="uname" ><b> Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+      <br>
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <br>
+      <br>
+        <label id="psw" ><b> confirm Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+     <br>  <br>
+      <label><b> email: </b></label>
+      <input class="loginform" type="email" placeholder="Aoash@gmail.com" name="email" required>
+
+     <br>  <br>
+
+      <button type="submit" class="loginsubmit">sign up </button>
+      <br>
+      <hr>
+       <button class="loginsubmit" type="button" 
+
+       onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+     </div>
+      </form>
+    </div>
+</header>
+
+
+<section class="displayShow">
+<div class="vidDesc" >
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ <h2>AUTUM </h2>
+ <h2>WINTER <h2>
+  <h2> FASHION SHOW <h2>
+ <h2>2018-2019<h2>
+</div>
+
+<div class="vidShow">
+  
+<video autoplay controls muted>
+  <source src="F&W.mp4" type="video/mp4">
+  <source src="F&W.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+</div>
+</section>
+<h3  class="headers3"">NOW IN BOUTIQUES</h3>
+
+<hr>
+<br>
+
+
+<div id="limited">  <!-- LIMETED ADDITION CATOGRY--> 
+  <img id="titleimg3" src="LimetedEd.png" alt="Limeted addition" width="400px"
+  height="125px">
+  <br>
+
+  <p><a href="#"> <img id="Limetedimg1" width="400px" height="300px"  class="Limetedimgs"   src="mainpic.jpg" ></a>
+   
+  <br><br><br>
+A forest imagined by Karl Lagerfeld sets the tone for the Fall-Winter 2018/19 show at the Grand Palais.
+<br> <br><br><br>
+
+</p>
+
+
+   <a href="#"><br><img width="400px" 
+    height="602px" id="Limetedimg3"  src="f1.jpg"></a>
+ 
+    <a href="#"><img class="Limetedimg" width="400px" 
+    height="602px" src="f2.jpg" ></a>
+    
+    <a href="#"><img id="Limetedimg4" width="400px" 
+    height="602px" src="f3.jpg"></a>
+</div>
+
+
+ <div id="Summer">
+  <img id="titleimg2" src="Summerco.png" alt="Summer Collection" width="400px"
+  height="125px">
+  <br>
+<p><a href="#"><img id="summerimg1" src="COT.jpg" width="847px"
+height="598px" ></a><br><br><br><br><br><br><br><br><br>
+In a verdant decor created under the glass roof of the Grand Palais,<br> the collection showcases sculptural silhouettes designed by Karl Lagerfeld, <br>featuring floral embroideries.</p>
+<br>
+   <a href="#"><img class="summerimg" src="20.zoom.2560.jpg" width="400px" height="753"></a>
+   
+    <a href="#"><img class="summerimg" src="17.zoom.2560.jpg" width="400px" height="753"></a>
+    <a href="#"><img  class="summerimg" src="15.sheet.480.jpg" width="420px" height="753" ></a>
+ </div>
+
+
+
+
+ <div id="Recently"> 
+  <img id="titleimg1" width="400px"
+  height="125px" src="RecentlyAdded.png">
+  <br>
+   <a href="#"><img class="recen" src="46.sheet.480.jpg" ></a>
+ 
+    <a href="#"><img  class="recen" src="44.zoom.2560.jpg" ></a>
+   
+   <a href="#"><img   class="recen" src="20.sheet.480.jpg" ></a>
+
+    <a href="#"> <img class="recen" src="15.sheet.480.jpg" ></a>
+ 
+   <a href="#"> <img  class="recen" src="
+ 11.zoom.2560.jpg" ></a>
+   
+  <a href="#">  <img class="recen" src="13.zoom.2560.jpg" ></a>
+ </div>
+<br>
+<h3 class="headers3">Chanel in INSTAGRAM</h3>
+<hr>
+<br>
+
+
+<div id="instagram" >
+
+  <div onmouseover="addInsta1()" onclick="openModal()" onmouseout="removerinsta1()" ">
+    <img id="myBtn" src="adwoa-aboah-backstage-21480X0.jpg" width="316px" height="395px">
+<!-- Modal content -->
+   <p id="instap1">
+    <img id="instaicon1" src="">
+    </p>
+  </div>
+  <div onmouseover="addInsta2()" onclick="openModal2()" onmouseout="removerinsta2()">
+   <a href="#"><img src="Bouton-de-Camelia-4-1024x852.jpg" width="316px" height="395px"></a>
+   <p id="instap2"></p>
+ </div>
+
+ <div onmouseover="addInsta3()" onclick="openModal3()" onmouseout="removerinsta3()">
+   <a href="#"><img src="ROUGE.jpg" width="316px" height="395px"></a>
+   <p id="instap3"></p>
+ </div>
+
+ <div onmouseover="addInsta4()" onclick="openModal4()" onmouseout="removerinsta4()">
+   <a href="#"><img  src="Chanel-Coco-Code-Soo-Joo-Park.jpg" width="316px" height="395px"></a>
+   <p id="instap4"></p>
+  
+   </div>
+</div>
+
+<script>
+function addInsta1(){
+    if (document.readyState === "complete") {
+    document.getElementById('instap1').innerHTML="<img src='instaIcon.png' width='35px' height='26px'> @YOYO CAO <br> DISCOVER THE LATEST TRENDS" ;
+   }
+  }
+
+  function removerinsta1() {
+    if (document.readyState === "complete") {
+   document.getElementById('instap1').innerHTML=""
+   }
+  }
+
+  function addInsta2(){
+    if (document.readyState === "complete") {
+    document.getElementById('instap2').innerHTML="<img src='instaIcon.png' width='35px' height='26px'> @CARIN OLSSON <br> DISCOVER THE LATEST TRENDS";
+}
+  }
+ function removerinsta2() {
+  if (document.readyState === "complete") {
+   document.getElementById('instap2').innerHTML=""
+ }
+  }
+
+function addInsta3(){
+    if (document.readyState === "complete") {
+    document.getElementById('instap3').innerHTML="<img src='instaIcon.png' width='35px' height='26px''> @SOFIE VALKIERS <br> DISCOVER THE LATEST TRENDS" ;
+   }
+  }
+   function removerinsta3() {
+    if (document.readyState === "complete") {
+   document.getElementById('instap3').innerHTML=""
+   }
+  }
+function addInsta4(){
+    if (document.readyState === "complete") {
+    document.getElementById('instap4').innerHTML="<img src='instaIcon.png' width='35px' height='26px'> AMLUL.COM <br> DISCOVER THE LATEST TRENDS" ;
+  }
+  }
+ function removerinsta4() {
+  if (document.readyState === "complete") {
+   document.getElementById('instap4').innerHTML=""
+}
+  }
+
+
+</script>
+  <div  class="modal2">
+    <div class="modal-content2">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>INSTAGRAM CHANEL</h2>
+      </div>
+
+ <div class="modal-body">
+      <div class="div1">
+        <img src="adwoa-aboah-backstage-21480X0.jpg" width="316px" height="395px">
+          <p><a href="https://www.instagram.com/p/BfgbR5jgy18/?taken-by=chanelofficial"> <b>The Spring-Summer 2018 
+		  #CHANELEyewear campaign ...
+		  @adwoaaboah #CHANELSunglasses</a></p></div>
+        
+      <div class="div2">
+      <img src="685x321.jpg" width="315px" height="250px">
+      <p><pre>
+CHANEL - EYEWEAR
+SUNGLASSES - ACCESSOIRES 
+</pre>
+</p>
+<button>ORDER</button></div>
+    </div>
+  </div></div>
+
+
+
+
+ <div  class="modal2">
+    <div class="modal-content2">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>INSTAGRAM CHANEL</h2>
+      </div>
+ <div class="modal-body">
+
+      <div class="div1">
+        <img src="Bouton-de-Camelia-4-1024x852.jpg" width="316px" height="300px">
+          <p><a href="https://www.instagram.com/p/BfG6b_agODN/?taken-by=chanelofficial"> This Valentine’s Day, give her a camellia,...
+<br>
+#Cameliacollection #Chanelfinejewelry</a></p></div>
+      
+      <div class="div2">
+      <img src="chan_cam_ear_1_l.jpg" width="315px" height="250px">
+      <p><pre>
+CHANEL - CAMELLIA
+EARINGS - ACCESSOIRES 
+</pre>
+</p>
+<button>ORDER</button></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+   <div  class="modal2">
+    <div class="modal-content2">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>INSTAGRAM CHANEL</h2>
+      </div>
+
+ <div class="modal-body">
+      <div class="div1">
+        <img src="ROUGE.jpg" width="316px" height="300px">
+          <p><a href="https://www.instagram.com/p/BcFj7KdAX_I/?taken-by=chanelofficial"> NUMÉROS ROUGES. <BR>
+		  The new Collection Libre by CHANEL <BR>
+		  starring @lilyrose_depp...</a></p></div>
+      
+      <div class="div2">
+      <img src="rouge1.jpg" width="315px" height="250px">
+      <p><pre>
+CHANEL - NUMÉROS ROUGES
+</pre>
+</p>
+<button>ORDER</button></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+   <div  class="modal2">
+    <div class="modal-content2">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>INSTAGRAM CHANEL</h2>
+      </div>
+ <div class="modal-body">
+      <div class="div1">
+        <img src="Chanel-Coco-Code-Soo-Joo-Park.jpg" width="316px" height="300px">
+          <p><a href="https://www.instagram.com/p/BeqW33YgX3g/?taken-by=chanelofficial"> Soo Joo Park knows the codes...</a></p></div>
+      
+      <div class="div2">
+      <img src="codecoco.jpg" width="315px" height="250px">
+      <p><pre>
+CHANEL - 
+COCO CODE COCO
+WATCH</pre>
+</p>
+<button>ORDER</button></div>
+    </div>
+  </div>
+</div>
+
+
+ <script>
+  // Get modal element
+var modal = document.getElementsByClassName('modal2')[0];
+var modal2 = document.getElementsByClassName('modal2')[1];
+var modal3 = document.getElementsByClassName('modal2')[2];
+var modal4 = document.getElementsByClassName('modal2')[3];
+// Get open modal button
+var modalBtn = document.getElementById('myBtn');
+// Get close button
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+var closeBtn2 = document.getElementsByClassName('closeBtn')[1];
+var closeBtn3 = document.getElementsByClassName('closeBtn')[2];
+var closeBtn4 = document.getElementsByClassName('closeBtn')[3];
+closeBtn.addEventListener('click', closeModal);
+closeBtn2.addEventListener('click', closeModal2);
+closeBtn3.addEventListener('click', closeModal3);
+closeBtn4.addEventListener('click', closeModal4);
+
+// Listen for outside click
+window.addEventListener('click', outsideClick);
+
+
+// Listen for open click
+// Listen for close click
+// Function to open modal
+function openModal(){
+  modal.style.display = 'block';
+}
+function openModal2(){
+  modal2.style.display = 'block';
+}
+function openModal3(){
+  modal3.style.display = 'block';
+}
+function openModal4(){
+  modal4.style.display = 'block';
+}
+// Function to close modal
+function closeModal(){
+  modal.style.display = 'none';
+}
+function closeModal2(){
+  modal2.style.display = 'none';
+}
+function closeModal3(){
+  modal3.style.display = 'none';
+}
+function closeModal4(){
+  modal4.style.display = 'none';
+
+}
+
+// Function to close modal if outside click
+
+
+
+</script>
+
+
+
+<footer>
+
+<div class="divfooter">
+<div class="footerlist">
+<ul id="footerList1" type="none">
+  <p>about us:</p> 
+  <li> <a href="WhoAreWe.html" > who are we? </a> </li>
+   <li> <a href="contact.html"> contact info </a> </li>
+</ul>
+  
+
+ <ul  id="footerList2" type="none">
+  <p>Help?</p>
+<li> <a href="faq.html" > FAQ </a> </li>
+</ul>
+
+      
+ </div> 
+ <br>
+  <br>
+
+
+<div class="iconsdiv" >
+  contact us: 
+
+  <br>
+  <br>
+  <div class="contact us">
+ <input  id="email" type="email" name="email"  placeholder="✉️ your email address" >
+ <input id="buttonemail" type ="button" value = "OK"> 
+</div>
+  <br>
+  <br>
+
+      follow us :
+      <br>
+      <br>
+    
+
+<a href="http://www.facebook.com"> <img class="icons" src="FacebookIcon.png" 
+ ></a>
+<a href="http://www.twitter.com"> <img class="icons" src="TwitterIcon.png"></a> 
+<a href="http://www.instagram.com"> <img class="icons" src="InstagramIcon.png" ></a>
+<a href="http://www.pintrest.com"> <img class="icons" src="Pinterest.png" ></a>
+
+
+
+</div>
+<br>
+  
+  <a href="#"><p id ="tothetop"> to the top </p> </a>
+
+
+
+<div class="copyright">
+&copy;2018 This website is for eductional purpose
+</div>
+</footer>
+  
+</div>
+
+      </div>
+
+</body>
+</html>
+
