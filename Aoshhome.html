@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Aosh</title>
+  <link rel="stylesheet" type="text/css" href="AoshHome.css" />
+
+   </head>
+
+
+   <body>
+     
+    <div > <!-- basic div -->
+<header>
+ <!--<img class ="logopicture" src="aoshlogowithoutborder.png">-->
+ 
+<section class ="sectionbody">
+
+
+ <!-- Button to open the login and search form -->
+
+<div class="topicons">
+   <a href="#"> <input id ="search" type="image" src="searchicon.png" width="25px" height="25px" 
+  onclick="serachFunction()" onchange ="serachFunction1()"></a>
+
+ <button onclick="document.getElementById('id01').style.display='block'" title="login"> <img src="loginicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+ <button onclick="document.getElementById('id02').style.display='block'" title="register"> <img src="signupicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+
+ <h1 id="title" >AOsh</h1>
+<br>
+
+</div>
+<!-- navigation bar -->
+<div class="menu-wrap">
+<nav class="menu">
+<ul class="clearfix">
+<li><a href="Aoshhome.html">Home</a></li>
+<li>
+<a href="#"> BRANDS <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a target="_blank" href="AoshBrandsCHANELpage.html">Chanel</a></li>
+<li><a target="_blank" href="AoshDiorpage.html">Dior</a></li>
+<li><a target="_blank" href="AoshBrandsGUCCIpage.html">Gucci</a></li>
+</ul>
+<li><a target="_blank" href="AoshDiorpage.html#limited">limited Addition </a></li>
+<li><a target="_blank" href="https://goo.gl/maps/LYFW8tfe7dC2">Our Location</a></li>
+</li>
+<li id="searchicon">  </li>
+  
+</ul>
+</nav>
+</div>
+</div>
+<br>
+<br> 
+</header>
+</section>
+<script>
+function serachFunction() {
+    document.getElementById("search").type ="search";
+}
+function serachFunction1() {
+    document.getElementById("search").type ="image";
+}
+</script>
+<br>
+<br>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+
+
+
+<!-- log in form -->
+
+      <div class="login">
+
+        <h1>Log in </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b>Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+       
+
+
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+        
+      
+     <br>
+
+      <button type="submit" class="loginsubmit">Login</button>
+      
+      
+      <label>
+        <input class="loginsubmit" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        <br>
+
+        <span class="psw"><a href="#">Forgot password?</a></span>
+        
+        <br>
+         <br>
+         <hr>
+          <br>
+
+          
+
+
+       <button class="loginsubmit" type="button" 
+       onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <button type="reset" value="Reset" class="loginsubmit"> Reset</button>
+    </div>
+
+             
+  </form>
+</div>
+
+<!-- register form -->
+
+<div id="id02" class="modal">
+<span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+    <div class="login" id="signup">
+
+       <h1 id="signuplink">sign up </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b> name: </b></label>
+      <input class="loginform" type="text" placeholder="Enter a name" name="uname" required>
+     <br>
+     <br>
+     <br>
+       <label id="uname" ><b> Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+      <br>
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <br>
+      <br>
+        <label id="psw" ><b> confirm Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+     <br>  <br>
+      <label><b> email: </b></label>
+      <input class="loginform" type="email" placeholder="Aoash@gmail.com" name="email" required>
+
+     <br>  <br>
+
+      <button type="submit" class="loginsubmit">sign up </button>
+      <br>
+      <hr>
+       <button class="loginsubmit" type="button" 
+
+       onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+       <button type="reset" value="Reset" class="loginsubmit"> Reset</button>
+     </div>
+      </form>
+    </div>
+
+
+<!-- slider -->
+
+<div class="slider" >
+  <img height="600px" class="mySlides" src="slider1.jpg" >
+  <img height="600px" class="mySlides" src="slider3.jpg" >
+  <img height="600px" class="mySlides" src="slider4.jpg">
+  <img height="600px" class="mySlides" src="slider5.jpg">
+</div>
+ 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+</header>
+
+<!-- middle content -->
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+  <div class="middle" >
+  <br>
+  <br>
+  <br>
+  <br>
+ <h2>Welcome</h2>
+<p>Luxury has a new address and we couldn't be happier to welcome you into our world.</p>
+</div>
+
+    <div class="middle2">
+    <h2>AOSH</h2>
+<p>We are proud to house some of the industry's top insiders at AOsh. Scouring the globe for leading trends and decadent destinations, our expert team reports on the latest fashion updates, coveted inside information and exclusive interviews for your delectation.<br>
+
+Here in this website , you can order luxurious pieces from the most known brands around the whole wild world , Chanel , Gucci and Dior ! We facilitate the ordering process so you can get what you want in the best quality and in a shorter time Hope you enjoy scrolling through our pages and get amazed at the beautiful pieces these brands have to offerr.</p>
+   </div>  
+   <br>
+    <br>
+<hr>
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+
+
+<footer>
+
+<div class="divfooter">
+<div class="footerlist">
+<ul id="footerList1" type="none">
+  <p>about us:</p> 
+  <li> <a href="WhoAreWe.html" > who are we? </a> </li>
+   <li> <a href="contact.html"> contact info </a> </li>
+</ul>
+  
+
+ <ul  id="footerList2" type="none">
+  <p>Help?</p>
+<li> <a href="faq.html" > FAQ </a> </li>
+</ul>
+      
+ </div> 
+ <br>
+  <br>
+
+
+<div class="iconsdiv" >
+  contact us: 
+
+  <br>
+  <br>
+  <div class="contact us">
+ <input  id="email" type="email" name="email"  placeholder="your email address" >
+ <input id="buttonemail" type ="button" value = "OK"> 
+</div>
+  <br>
+  <br>
+
+      follow us :
+      <br>
+      <br>
+    
+
+<a href="http://www.facebook.com"> <img class="icons" src="FacebookIcon.png" 
+ ></a>
+<a href="http://www.twitter.com"> <img class="icons" src="TwitterIcon.png"></a> 
+<a href="http://www.instagram.com"> <img class="icons" src="InstagramIcon.png" ></a>
+<a href="http://www.pintrest.com"> <img class="icons" src="Pinterest.png" ></a>
+
+
+
+</div>
+<br>
+  
+  <a href="#"><p id ="tothetop"> to the top </p> </a>
+
+
+
+<div class="copyright">
+&copy;2018 This website is for eductional purpose
+</div>
+</footer>
+  
+</div>
+      </div>
+
+</body>
+</html>
+
+
+
+
