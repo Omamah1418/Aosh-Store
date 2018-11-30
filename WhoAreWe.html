@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Aosh</title>
+  <link rel="stylesheet" type="text/css" href="AoshHome.css" />
+  <link rel="stylesheet" type="text/css" href="AoshFooter.css" />
+
+
+   </head>
+
+
+   <body>
+      <body>
+     
+    <div > <!-- basic div -->
+<header>
+ <!--<img class ="logopicture" src="aoshlogowithoutborder.png">-->
+ 
+<section class ="sectionbody">
+
+
+ <!-- Button to open the login and search form -->
+
+<div class="topicons">
+   <a href="#"> <input id ="search" type="image" src="searchicon.png" width="25px" height="25px" 
+  onclick="serachFunction()" onchange ="serachFunction1()"></a>
+
+ <button onclick="document.getElementById('id01').style.display='block'" title="login"> <img src="loginicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+ <button onclick="document.getElementById('id02').style.display='block'" title="register"> <img src="signupicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+
+ <h1 id="title" >AOsh</h1>
+<br>
+
+</div>
+<!-- navigation bar -->
+<div class="menu-wrap">
+<nav class="menu">
+<ul class="clearfix">
+<li><a href="Aoshhome.html">Home</a></li>
+<li>
+<a href="#"> BRANDS <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a target="_blank" href="AoshBrandsCHANELpage.html">Chanel</a></li>
+<li><a target="_blank" href="AoshDiorpage.html">Dior</a></li>
+<li><a target="_blank" href="AoshBrandsGUCCIpage.html">Gucci</a></li>
+</ul>
+<li><a target="_blank" href="AoshDiorpage.html#limited">limited Addition </a></li>
+<li><a target="_blank" href="https://goo.gl/maps/LYFW8tfe7dC2">Our Location</a></li>
+</li>
+<li id="searchicon">  </li>
+  
+</ul>
+</nav>
+</div>
+</div>
+<br>
+<br> 
+</header>
+</section>
+<script>
+function serachFunction() {
+    document.getElementById("search").type ="search";
+}
+function serachFunction1() {
+    document.getElementById("search").type ="image";
+}
+</script>
+<br>
+<br>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+
+
+
+<!-- log in form -->
+
+      <div class="login">
+
+        <h1>Log in </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b>Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+       
+
+
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+        
+      
+     <br>
+
+      <button type="submit" class="loginsubmit">Login</button>
+      
+      
+      <label>
+        <input class="loginsubmit" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        <br>
+
+        <span class="psw"><a href="#">Forgot password?</a></span>
+        
+        <br>
+         <br>
+         <hr>
+          <br>
+
+          
+
+
+       <button class="loginsubmit" type="button" 
+       onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+
+             
+  </form>
+</div>
+
+<!-- register form -->
+
+<div id="id02" class="modal">
+<span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+    <div class="login" id="signup">
+
+       <h1 id="signuplink">sign up </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b> name: </b></label>
+      <input class="loginform" type="text" placeholder="Enter a name" name="uname" required>
+     <br>
+     <br>
+     <br>
+       <label id="uname" ><b> Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+      <br>
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <br>
+      <br>
+        <label id="psw" ><b> confirm Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+     <br>  <br>
+      <label><b> email: </b></label>
+      <input class="loginform" type="email" placeholder="Aoash@gmail.com" name="email" required>
+
+     <br>  <br>
+
+      <button type="submit" class="loginsubmit">sign up </button>
+      <br>
+      <hr>
+       <button class="loginsubmit" type="button" 
+
+       onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+     </div>
+      </form>
+    </div>
+
+</header>
+
+
+<h2> HOW ARE WE ? <h2>
+<p> hello ! and welcome you all in our website if you've been scrolling through it till you've reached this page<br>
+to know who created it then HI we are :
+<div id="memContainer">
+  
+  <div class="members">
+<img src="ahad.png" id="ahad" width="200px" height="200px"  ><br>
+<p> This is Ahad Saad Almotiry , 20 years of age , a creater of this website </p>
+</div>
+
+<div class="members">
+<img src="shrooq.png" id="shrooq" width="200px" height="200px" ><br>
+<p> This is Shrooq Saad Alhazmi , 20 years of age , a creater of this website </p>
+</div>
+
+<div  class="members">
+<img src="omamah.png" id="omamah" width="200px" height="200px"><br>
+<p> This is Omama Arif Alshamrani ,IS student member of One Click Club 20 years of age , a creater of this website </p></div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<footer>
+
+<div class="divfooter">
+<div class="footerlist">
+<ul id="footerList1" type="none">
+  <p>about us:</p> 
+  <li> <a href="WhoAreWe.html" > who are we? </a> </li>
+   <li> <a href="contact.html"> contact info </a> </li>
+</ul>
+  
+
+ <ul  id="footerList2" type="none">
+  <p>Help?</p>
+<li> <a href="faq.html" > FAQ </a> </li>
+</ul>
+      
+ </div> 
+ <br>
+  <br>
+
+
+<div class="iconsdiv" >
+  contact us: 
+
+  <br>
+  <br>
+  <div class="contact us">
+ <input  id="email" type="email" name="email"  placeholder="your email address" >
+ <input id="buttonemail" type ="button" value = "OK"> 
+</div>
+  <br>
+  <br>
+
+      follow us :
+      <br>
+      <br>
+    
+
+<a href="http://www.facebook.com"> <img class="icons" src="FacebookIcon.png" 
+ ></a>
+<a href="http://www.twitter.com"> <img class="icons" src="TwitterIcon.png"></a> 
+<a href="http://www.instagram.com"> <img class="icons" src="InstagramIcon.png" ></a>
+<a href="http://www.pintrest.com"> <img class="icons" src="Pinterest.png" ></a>
+
+
+
+</div>
+<br>
+  
+  <a href="#"><p id ="tothetop"> to the top </p> </a>
+
+
+
+<div class="copyright">
+&copy;2018 This website is for eductional purpose
+</div>
+</footer>
+  
+</div>
+      </div>
+
+</body>
+</html>
+
+
+
