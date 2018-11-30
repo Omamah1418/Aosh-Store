@@ -1,0 +1,251 @@
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+h1{
+text-align: center;
+font-family: cursive;
+color: black;
+font-size:70px;
+margin-top: 0px;
+margin-bottom: 0px}
+
+
+
+
+#barndicon{
+ 
+  margin:10px 600px;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/*Video Show Style*/
+.displayShow{
+display: inline-block;
+}
+
+.vidDesc{
+  text-align:center;
+  color:black;
+  width:385px;
+  height:453px;
+  float:left;
+  margin-right:50px;
+  margin-left:50px;
+  background-image: url("marble-background-11.jpg");
+}
+.vidShow{float:left;}
+.vidShow video {
+  width:806px;
+   height:453px;
+  float: left;
+}
+
+.headers3{
+color:white;
+float: left;
+font-size:30px;
+margin:10px;}
+
+hr{margin-top:40px;}
+
+/*-------------------------------------------------------------------------------------*/
+/*middle imgs*/
+/*-------------------------------------------------------------------------------------*/
+ #limited{ 
+   width: 100%;
+   border-style:double;
+   border-color:grey;
+   display: block;
+   position: relative;
+   margin:10px;
+   margin-bottom:50px;
+   }
+
+#limited p{
+  text-align:center;
+  font-size:20px;
+  margin-right:50px;
+margin-left:20px;
+padding-bottom:130px; }
+
+
+
+  #limited img{
+  margin-top:5px;
+  margin-bottom:5px;
+  display: inline;}
+
+  .Limetedimgs{float: left;}
+
+#Limetedimg1{margin-left:50px;}
+#Limetedimg2{padding-right:10px;
+border-right-color:grey;
+border-right-style:solid;}
+#Limetedimg3{margin-left:50px;}
+
+  
+/*-------------------------------------------------------------------------------------*/
+
+
+#Summer p{
+  text-align:center;
+  font-size:20px;
+  margin-right:50px;
+margin-left:20px;
+padding-bottom:240px; }
+    #Summer{
+       width: 100%;
+  border-style:double;
+  border-color:grey;
+   display: block;
+  position: relative;
+  margin:10px;
+  margin-bottom: 50px;
+   }
+
+    #Summer img{
+  display: inline;}
+ #summerimg1{
+  border-right: solid grey ;
+  float: left;
+  padding-right: 10px;
+  margin:10px 20px;
+}
+.summerimg{margin-left:27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  
+/*-------------------------------------------------------------------------------------*/
+
+#titleimg2{
+  position:relative;
+   right:0px;
+   left:930px;}
+
+#Recently{
+  /*background-color: #3c3c3c;*/
+  width: 100%;
+  border-style:double;
+  border-color:grey;
+   display: block;
+  position: relative;
+  margin:10px;
+   margin-bottom: 50px;
+}
+#Recently img { 
+    width:400px;
+    margin:10px 20px;
+    display: inline;
+    }
+
+/*-------------------------------------------------------------------------------------*/
+
+#instagram{
+  width:100%;
+  display: block;
+  position: relative;
+  margin:0px;
+  padding:0px;
+}
+
+#instagram div {
+  text-align: center;
+ color:white;
+ float: left;
+ margin-bottom: 100px;
+}
+
+#instagram div:hover{
+color: white;
+border-style: double;
+border-color: white;
+
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+
+.modal2{
+
+  display:none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content2{
+  background-color:#f4f4f4;
+  margin: 20% auto;
+  width:65%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:modalopen;
+  animation-duration:1s;
+}
+.modal-content2 b:hover{
+  text-decoration: underline;
+}
+
+.modal-header{
+  background-image: url("marble-background-11.jpg");
+  padding:10px;
+  }
+
+  .div1{float: left;
+    padding:30px;
+    border-right:double black;
+  }
+  .div2{float: left;
+    padding:50px 30px;
+    padding-top:120px;}
+
+  .modal-content2 button{float: right;
+      background:black;
+      color: white;
+  padding:1em 2em;
+  border:0;}
+
+
+.modal-body{font-size: 16px;
+  color:black;
+  height: 550px;
+  background-color:white;
+  padding:10px 20px; 
+}
+.modal2 h2{color: black;}
+.closeBtn{
+  color:black;
+  float: right;
+  font-size:30px;
+  color:black;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color:grey;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+@keyframes modalopen{
+  from{ opacity: 0}
+  to {opacity: 1}
+}
+
+/*-------------------------------------------------------------------------------------*/

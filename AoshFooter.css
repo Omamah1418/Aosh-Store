@@ -1,0 +1,112 @@
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.con {
+  font-size:16px;
+   text-align: center;
+  padding:10px;
+    margin-left:40%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+}
+
+#con1{
+  font-size:30px;
+  text-align: center;
+  padding:10px;
+border-bottom: 0.5px solid black;
+}
+
+@keyframes mymove {
+    0%   {top: 0px; background: black; width: 200px;}
+    100% {top: 120px; background: GREY; width: 250px;}
+}
+@font-face{font-family: "CenturyGothic_gdi";
+    src: url("CenturyGothic_gdi.woff") format('woff');}
+
+
+
+
+
+
+
+
+
+
+/*FAQ Style*/
+#q h4{
+  text-align: left;
+  width:700px;
+color:black;
+  font-size: 20px;
+  background-image: url("marble-background-11.jpg");
+}
+#q h4:hover, h4:focus{
+  background-color:darkgrey;
+  color:black;
+  width:700px;
+  cursor: pointer;
+}
+
+#q p{
+  height: 50px;
+  text-align: center;
+font-size:16px;
+}
+#q p{
+  padding:30px;
+border:solid grey 3px;
+border-radius: 120px;
+}
+
+/*Members Style*/
+
+
+#memContainer{
+  width: 1000px;
+  height:500px;
+  display:hidden;
+  border:solid grey 2px;
+  border-radius: 100px;
+  padding-left: 50px;
+  padding:90px 5px;
+  margin:30px 100px;}
+  
+.members {
+    border:solid grey 2px;
+  border-radius:100px;
+  padding:20px 20px;
+  float:left;
+    opacity:0;
+  text-align: center;
+  margin:40px 40px;
+}
+
+.members p{
+  width: 200px;}
+
+.members:hover ,.members:focus 
+{   opacity:1;
+    -webkit-transition: opacity .25s ease-in-out .0s;
+    transition: opacity .25s ease-in-out .0s;
+    cursor: pointer;}
+
+.headers3{
+color:white;
+float: left;
+font-size:30px;
+margin:10px;}
+form h5{font-size:18px;}
+form{
+  text-align: center;
+}
+hr{margin-top:40px;}

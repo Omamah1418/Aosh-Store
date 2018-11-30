@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>FAQ</title>
+
+  <link rel="stylesheet" type="text/css" href="AoshHome.css" />
+  <link rel="stylesheet" type="text/css" href="AoshFooter.css" />
+
+   </head>
+
+ <body>
+     
+    <div > <!-- basic div -->
+<header>
+ <!--<img class ="logopicture" src="aoshlogowithoutborder.png">-->
+ 
+<section class ="sectionbody">
+
+
+ <!-- Button to open the login and search form -->
+
+<div class="topicons">
+   <a href="#"> <input id ="search" type="image" src="searchicon.png" width="25px" height="25px" 
+  onclick="serachFunction()" onchange ="serachFunction1()"></a>
+
+ <button onclick="document.getElementById('id01').style.display='block'" title="login"> <img src="loginicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+ <button onclick="document.getElementById('id02').style.display='block'" title="register"> <img src="signupicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+
+ <h1 id="title" >AOsh</h1>
+<br>
+
+</div>
+<!-- navigation bar -->
+<div class="menu-wrap">
+<nav class="menu">
+<ul class="clearfix">
+<li><a href="Aoshhome.html">Home</a></li>
+<li>
+<a href="#"> BRANDS <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a target="_blank" href="AoshBrandsCHANELpage.html">Chanel</a></li>
+<li><a target="_blank" href="AoshDiorpage.html">Dior</a></li>
+<li><a target="_blank" href="AoshBrandsGUCCIpage.html">Gucci</a></li>
+</ul>
+<li><a target="_blank" href="AoshDiorpage.html#limited">limited Addition </a></li>
+<li><a target="_blank" href="https://goo.gl/maps/LYFW8tfe7dC2">Our Location</a></li>
+</li>
+<li id="searchicon">  </li>
+  
+</ul>
+</nav>
+</div>
+</div>
+<br>
+<br> 
+</header>
+</section>
+<script>
+function serachFunction() {
+    document.getElementById("search").type ="search";
+}
+function serachFunction1() {
+    document.getElementById("search").type ="image";
+}
+</script>
+<br>
+<br>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+
+
+
+<!-- log in form -->
+
+      <div class="login">
+
+        <h1>Log in </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b>Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+       
+
+
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+        
+      
+     <br>
+
+      <button type="submit" class="loginsubmit">Login</button>
+      
+      
+      <label>
+        <input class="loginsubmit" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        <br>
+
+        <span class="psw"><a href="#">Forgot password?</a></span>
+        
+        <br>
+         <br>
+         <hr>
+          <br>
+
+          
+
+
+       <button class="loginsubmit" type="button" 
+       onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+
+             
+  </form>
+</div>
+
+<!-- register form -->
+
+<div id="id02" class="modal">
+<span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+    <div class="login" id="signup">
+
+       <h1 id="signuplink">sign up </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b> name: </b></label>
+      <input class="loginform" type="text" placeholder="Enter a name" name="uname" required>
+     <br>
+     <br>
+     <br>
+       <label id="uname" ><b> Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+      <br>
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <br>
+      <br>
+        <label id="psw" ><b> confirm Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+     <br>  <br>
+      <label><b> email: </b></label>
+      <input class="loginform" type="email" placeholder="Aoash@gmail.com" name="email" required>
+
+     <br>  <br>
+
+      <button type="submit" class="loginsubmit">sign up </button>
+      <br>
+      <hr>
+       <button class="loginsubmit" type="button" 
+
+       onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+     </div>
+      </form>
+    </div>
+
+
+
+
+
+</header>
+
+<br>
+
+<br>
+<h3  class="headers3"">Frequntly Asked Qustions</h3>
+<hr>
+
+
+<div id="q">
+
+
+
+
+<h4 onmouseover='document.getElementById("p1").innerHTML = "By default, the last used shipping address will be saved into to your Sample Store account <br> When you are checking out your order the default shipping address will be displayed and you have the option to amend it if you need to."' onmouseout='document.getElementById("p1").innerHTML=""' >HOW CAN I CHANGE MY SHIPPING ADDRESS</h4><p id="p1"></p>
+
+
+
+<h4 onmouseover='document.getElementById("p2").innerHTML = "The instructions to activate your account will be sent to your email once you have submitted the registration form.<br> If you did not receive this email,<br> your email service providers mailing software may be blocking it. You can try checking your junk"' onmouseout='document.getElementById("p2").innerHTML=""' >HOW DO I ACTIVATE MY ACCOUNT?</h4><p id="p2"></p>
+
+
+<h4 onmouseover='document.getElementById("p3").innerHTML ="At the moment, we only accept Credit/Debit cards and Paypal payments."' onmouseout='document.getElementById("p3").innerHTML=""'>WHAT ARE THE PAYMENT METHODS AVAILABLE?</h4>
+  <p id="p3"></p>
+
+<h4 onmouseover='document.getElementById("p4").innerHTML ="After logging into your account, go to your Shopping Cart. Here, you will be able to make payment or cancel your order. Note: We cannot give refunds once payment is verified."' onmouseout='document.getElementById("p4").innerHTML=""'>HOW DO I CANCEL MY ORDERS BEFORE I MAKE A PAYMENT?</h4>
+  <p id="p4"></p>
+
+  <h4 onmouseover='document.getElementById("p5").innerHTML ="Members who ship their orders within Singapore should expect to receive their orders within five 5 to ten 10 working days upon payment verification depending on the volume of orders received."' onmouseout='document.getElementById("p5").innerHTML=""'>HOW LONG WILL IT TAKE FOR MY ORDER TO ARRIVE AFTER I MAKE PAYMENT?</h4>
+  <p id="p5"></p>
+
+  <h4 onmouseover='document.getElementById("p6").innerHTML ="Sample ordering is on (first-come-first-serve) basis. To ensure that you get your desired samples, it is recommended that you make your payment within 60 minutes of checking out."' onmouseout='document.getElementById("p6").innerHTML=""'>WHY MUST I MAKE PAYMENT IMMEDIATELY AT CHECKOUT?</h4>
+  <p id="p6"></p>
+
+  <h4 onmouseover='document.getElementById("p7").innerHTML ="Due to the limited quantity, each members account is only entitled to 1 unique free sample. You can check out up to 4 free samples in each checkout."' onmouseout='document.getElementById("p7").innerHTML=""'>HOW MANY FREE SAMPLES CAN I REDEEM?</h4>
+  <p id="p7"></p>
+</div>
+  
+
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+
+<div class="divfooter">
+<div class="footerlist">
+<ul id="footerList1" type="none">
+  <ul id="footerList1" type="none">
+  <p>about us:</p> 
+  <li> <a href="WhoAreWe.html" > who are we? </a> </li>
+   <li> <a href="contact.html"> contact info </a> </li>
+</ul>
+  
+
+ <ul  id="footerList2" type="none">
+  <p>Help?</p>
+<li> <a href="faq.html" > FAQ </a> </li>
+</ul>
+      
+ </div> 
+ <br>
+  <br>
+
+
+<div class="iconsdiv" >
+  contact us: 
+
+  <br>
+  <br>
+  <div class="contact us">
+ <input  id="email" type="email" name="email"  placeholder=" your email address" >
+ <input id="buttonemail" type ="button" value = "OK"> 
+</div>
+  <br>
+  <br>
+
+      follow us :
+      <br>
+      <br>
+    
+
+<a href="http://www.facebook.com"> <img class="icons" src="FacebookIcon.png" 
+ ></a>
+<a href="http://www.twitter.com"> <img class="icons" src="TwitterIcon.png"></a> 
+<a href="http://www.instagram.com"> <img class="icons" src="InstagramIcon.png" ></a>
+<a href="http://www.pintrest.com"> <img class="icons" src="Pinterest.png" ></a>
+
+
+
+</div>
+<br>
+  
+  <a href="#"><p id ="tothetop"> to the top </p> </a>
+
+
+
+<div class="copyright">
+&copy;2018 This website is for eductional purpose
+</div>
+</footer>
+  
+</div>
+      </div>
+
+</body>
+</html>
+
+

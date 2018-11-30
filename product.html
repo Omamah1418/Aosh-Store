@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="AoshHome.css">
+  <link rel="stylesheet" type="text/css" href="product.css">
+ <title>Dior product</title>
+</head>
+<body>
+
+<div > <!-- basic div -->
+<header>
+ <!--<img class ="logopicture" src="aoshlogowithoutborder.png">-->
+ 
+<section class ="sectionbody">
+
+
+ <!-- Button to open the login and search form -->
+
+<div class="topicons">
+   <a href="#"> <input id ="search" type="image" src="searchicon.png" width="25px" height="25px" 
+  onclick="serachFunction()" onchange ="serachFunction1()"></a>
+
+ <button onclick="document.getElementById('id01').style.display='block'" title="login"> <img src="loginicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+<button onclick="document.getElementById('id02').style.display='block'" title="register"> <img src="signupicon.png"  width="25px" height="25px" id="loginicon"></button> 
+
+
+ <h1 id="title" >AOsh</h1>
+<br>
+
+</div>
+<!-- navigation bar -->
+<div class="menu-wrap">
+<nav class="menu">
+<ul class="clearfix">
+<li><a href="Aoshhome.html">Home</a></li>
+<li>
+<a href="#"> BRANDS <span class="arrow">&#9660;</span></a>
+<ul class="sub-menu">
+<li><a target="_blank" href="AoshBrandsCHANELpage.html">Chanel</a></li>
+<li><a target="_blank" href="AoshDiorpage.html">Dior</a></li>
+<li><a target="_blank" href="AoshBrandsGUCCIpage.html">Gucci</a></li>
+</ul>
+<li><a target="_blank" href="AoshDiorpage.html#limited">limited Addition </a></li>
+<li><a target="_blank" href="https://goo.gl/maps/LYFW8tfe7dC2">Our Location</a></li>
+</li>
+<li id="searchicon">  </li>
+  
+</ul>
+</nav>
+</div>
+</div>
+<br>
+<br> 
+</header>
+</section>
+<script>
+function serachFunction() {
+    document.getElementById("search").type = "search";
+}
+function serachFunction1() {
+    document.getElementById("search").type = "image";
+}
+</script>
+<br>
+<br>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+
+
+
+<!-- log in form -->
+
+      <div class="login">
+
+        <h1>Log in </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b>Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+       
+
+
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+        
+      
+     <br>
+
+      <button type="submit" class="loginsubmit">Login</button>
+      
+      
+      <label>
+        <input class="loginsubmit" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        <br>
+
+        <span class="psw"><a href="#"> Forgot password?</a></span>
+        
+        <br>
+         <br>
+         <hr>
+          <br>
+
+          
+
+
+       <button class="loginsubmit" type="button" 
+       onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+
+             
+  </form>
+</div>
+
+<!-- register form -->
+
+<div id="id02" class="modal">
+<span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+      
+
+  <form class="modal-content animate" >
+
+
+    <div class="imglogin">
+
+      <img class="imglogin" src="loginslider.jpg" width="384px" height="554px">
+
+    </div>
+    <div class="login" id="signup">
+
+       <h1 id="signuplink">sign up </h1>
+        <br>
+      <br>
+
+        
+      <label id="uname" ><b> name: </b></label>
+      <input class="loginform" type="text" placeholder="Enter a name" name="uname" required>
+     <br>
+     <br>
+     <br>
+       <label id="uname" ><b> Username: </b></label>
+      <input class="loginform" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <br>
+      <br>
+      <label id="psw" ><b>Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <br>
+      <br>
+        <label id="psw" ><b> confirm Password: </b></label>
+      <input class="loginform" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+     <br>  <br>
+      <label><b> email: </b></label>
+      <input class="loginform" type="email" placeholder="Aoash@gmail.com" name="email" required>
+
+     <br>  <br>
+
+      <button type="submit" class="loginsubmit">sign up </button>
+      <br>
+      <hr>
+       <button class="loginsubmit" type="button" 
+
+       onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+     </div>
+      </form>
+    </div>
+
+</header>
+
+<br>
+<br>
+<hr>
+
+<br>
+<br><!-- pictures specfication -->
+<div class="row">
+
+
+
+<div class="piccontainer">
+ 
+  <img id="expandedImg" src="Shoes1.png" width="700px" height="500px">
+   </div>
+
+
+
+   <div class="discribtion"  width="40px">
+  <h2> DIOR D-BEE" TRAINER BLACK AND WHITE PRINTED </h2>
+  <h2> CALFSKIN LEATHER</h2>
+<h3>DESCRIPTION</h3>
+<p>Lace-up trainer in black and white<br> printed calfskin leather with bee signature and CD.<p>
+  <hr>
+  <br>
+<table>
+  <tr>
+  <th>matiral</th>
+  <th>Dimensions:</th>
+   <th>REFERENCE:</th>
+  </tr>
+  <tr>
+    <td>Cannage topstitching</td>
+    <td>17 x 15 x 7 cm</td>
+    <td>CAL44500_M413</td>
+  </tr>
+</table>
+<br>
+ <hr>
+
+<p id="price"> price : 250$  <button id="order">Add To Cart</button></p>
+ 
+
+ </div>
+
+</div>
+
+<br>
+
+
+ <div class="column" >
+    <img src="Shoes1.png" width="167px" height="100px" onclick="myFunction(this);">
+    <img src="Shoes2.png"  width="167px" height="100px"  onclick="myFunction(this);">
+    <img src="Shoes3.png" width="167px" height="100px"  onclick="myFunction(this);">
+    <img src="Shoes4.png" width="167px" height="100px"  onclick="myFunction(this);">
+    <img src="Shoes5.png" width="167px" height="100px"  onclick="myFunction(this);">
+  </div>
+
+<br><br>
+
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+
+<br>
+
+<br>
+<br>
+
+<br>
+<br><br>
+
+<br>
+<br>
+<br>
+<footer>
+
+<div class="divfooter">
+<div class="footerlist">
+<ul id="footerList1" type="none">
+  <p>about us:</p> 
+  <li> <a href="" > who are we? </a> </li>
+   <li> <a href=""> contact info </a> </li>
+</ul>
+  
+
+ <ul  id="footerList2" type="none">
+  <p>Help?</p>
+<li> <a href="" > FAQ</a> </li>
+<li> <a href="" > customer service </a> </li>
+</ul>
+      
+ </div> 
+ <br>
+  <br>
+
+
+<div class="iconsdiv" >
+  contact us: 
+
+  <br>
+  <br>
+  <div class="contact us">
+ <input  id="email" type="email" name="email"  placeholder=" your email address" >
+ <input id="buttonemail" type ="button" value = "OK"> 
+</div>
+  <br>
+  <br>
+
+      follow us :
+      <br>
+      <br>
+    
+
+<a href="http://www.facebook.com"> <img class="icons" src="FacebookIcon.png" 
+ ></a>
+<a href="http://www.twitter.com"> <img class="icons" src="TwitterIcon.png"></a> 
+<a href="http://www.instagram.com"> <img class="icons" src="InstagramIcon.png" ></a>
+<a href="http://www.pintrest.com"> <img class="icons" src="Pinterest.png" ></a>
+
+
+
+</div>
+<br>
+  
+  <a href="#"><p id ="tothetop"> to the top </p> </a>
+
+
+
+<div class="copyright">
+&copy;2018 This website is for eductional purpose
+</div>
+</footer>
+  
+</div>
+      </div>
+
+
+
+</body>
+</html>
+
